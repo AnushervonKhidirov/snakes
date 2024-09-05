@@ -4,3 +4,5 @@ export type TCoordinate = {
 }
 
 export type TSnakeCoordinates = TCoordinate[]
+
+export type TDirection = 'up' | 'down' | 'left' | 'right'
